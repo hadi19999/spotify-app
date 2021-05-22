@@ -1,38 +1,183 @@
-.App {
-  text-align: center;
+.login-box {
+	display: flex;
+	margin: auto;
+	width: 50%;
+	max-width: 500px;
+	border: 1px solid grey;
+	padding: 10px;
+	border-radius: 7px;
+	margin-top: 20%;
+	font-size: 20px;
+	text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login-box:hover {
+	background-color: rgb(206, 188, 188);
+	border: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.login-text{
+	padding-left: 42%;
+	font-size: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.spotify-icon {
+	width: 50px;
+	margin-left: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar {
+	background-color: lightgray;
+	border: 2px solid gray;
+	display: flex;
+	align-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-title {
+	font-size: 30px;
+	padding-left: 30px;
+}
+
+.form-control {
+	width: 45%;
+	height: 50px;
+	max-width: 800px;
+	display: inline-block;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 25px;
+}
+
+.search-input {
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 20%
+}
+
+.search-input-top {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.search-button {
+	background-color: transparent;
+	border: 0;
+	position: absolute;
+	margin-left: -50px;
+	margin-top: 5px;
+}
+
+.search-icon {
+	width: 35px;
+}
+
+
+.artist {
+	width: 300px;
+	display: inline-block;
+	float: left;
+	border: solid 3px #888;
+	margin: 15px;
+}
+
+.artist-img {
+	height: 220px;
+	overflow: hidden;
+	background-size: 100%;
+}
+
+.artist-img img {
+	width: 100%;
+}
+
+.artist-desc {
+	height: 160px;
+	overflow: auto;
+	padding-left: 10px;
+}
+
+.artist-name {
+	font-weight: 400;
+	font-size: 25px;
+	color: black;
+}
+
+.artist-followers {
+	font-weight: 100;
+	font-size: 15px;
+	color: grey;
+}
+
+.album-title {
+	font-size: 25px;
+	font-weight: 600;
+	margin: 2px 0;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+.album-link {
+	bottom: 0px;
+	left: 0;
+	padding: 3px 0;
+	width: 100%;
+	text-align: center;
+	background: #eee;
+	border-top: solid 1px grey;
+	text-decoration: none;
+	color: #555;
+	height: 25px;
+}
+
+.album-text {
+	color: grey;
+}
+
+.date {
+	margin: 10px 0 -15px 0;
+}
+
+.name {
+	margin: -4px 0 0 0;
+}
+
+.no-decoration {
+	text-decoration: none;
+	color: grey;
+}
+
+.artist-info {
+	padding-left: 25px;
+	font-weight: 400;
+}
+
+.navbar-button{
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: 2%;
+}
+
+.logout-button{
+	background-color: red;
+	height: 40px;
+	border-radius: 7px;
+	text-decoration: none;	
+}
+
+.logout-button:hover{
+	background-color: crimson;
 }
