@@ -18,8 +18,10 @@ class Search extends Component {
 	getSearchedArtist() {
 		const that = this;
 		const val = $('#search-artist').val();
-		this.state.queryString = val
-
+		this.setState({
+			queryString: val
+		});
+		
 		if (val === '') {
 			that.setState({
 				artists: []
