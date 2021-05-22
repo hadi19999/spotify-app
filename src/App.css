@@ -74,6 +74,7 @@
 
 .artist {
 	width: 300px;
+	max-width: fit-content;
 	display: inline-block;
 	float: left;
 	border: solid 3px #888;
